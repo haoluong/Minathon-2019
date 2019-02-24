@@ -12,16 +12,17 @@ body {
 
 .leftColumn {
     width: 20%;
-    order: 1;
+    order: 0;
     flex-basis: auto;
     height: inherit;
+    position: relative;
 }
 
 .rightColumn {
     width: 80%;
     height: inherit;
     order: 1;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .list {
@@ -37,4 +38,11 @@ body {
     -webkit-box-shadow: 5px 5px 2px 5px rgba(0,0,0,0.26);
     -moz-box-shadow: 5px 5px 2px 5px rgba(0,0,0,0.26);
     box-shadow: 5px 5px 2px 5px rgba(0,0,0,0.26);
+}
+
+.postNew {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }

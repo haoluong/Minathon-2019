@@ -1,0 +1,136 @@
+.viewpost {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 998;
+}
+
+.main {
+    position: relative;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 500px;
+    background-color: white;
+}
+
+.closeButtonArea {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.closeButton {
+    background-image: url(close.png);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.header {
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+    order: 0;
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+    margin-left: 5%;
+}
+
+.right {
+    float: left;
+    width: 30%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.another {
+    float: left;
+    width: 30%;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.clear {
+    clear: both;
+    content: "";
+}
+
+.left > img, .right > img, .another > img {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.description {
+    width: 90%;
+    text-align: justify;
+    height: auto;
+    padding: 5px;
+}
+
+.sdt {
+    width: 70%;
+    padding: 5px;
+}
+
+.middle {
+    display: table;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    top: 60px;
+}
+
+.postButton {
+    width: 60px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+.postButton:hover {
+    background-color: gray;
+}
+
+.postButton:active {
+    background-color: blue;
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}

@@ -1,6 +1,6 @@
 .sideBar {
     position: fixed;
-    background-color: #fff;
+    background-color: black;
     width: 20%;
     height: 100%;
     -webkit-box-shadow: 5px 0px  5px rgba(0,0,0,0.26);
@@ -30,7 +30,7 @@
     margin-bottom: 20px;
     font-size: 30px;
     cursor: pointer;
-    background-color: inherit;
+    background-color: whitesmoke;
     border: none;
     width: 100%;
     display: table-cell;

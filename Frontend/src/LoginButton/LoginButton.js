@@ -4,7 +4,7 @@ import './LoginButton.css'
 const loginbutton = (props) => {
     return (
         <div>
-            <button className="loginButton" onClick={props.click}>Đăng nhập</button>
+            <button className="loginButton" onClick={props.click}>Sign in</button>
         </div>
     );
 }
