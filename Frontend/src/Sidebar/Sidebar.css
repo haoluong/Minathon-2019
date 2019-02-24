@@ -1,0 +1,54 @@
+.sideBar {
+    position: fixed;
+    background-color: #fff;
+    width: 20%;
+    height: 100%;
+    -webkit-box-shadow: 5px 0px  5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 5px 0px  5px rgba(0,0,0,0.26);
+    box-shadow: 5px 0px  5px rgba(0,0,0,0.26);
+}
+
+.currentUser {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.currentUser img{
+    width: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.menuItem {
+    display: inline-block;
+    left: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    width: 100%;
+    display: table-cell;
+    left: 0;
+    height: 90px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.menuItem img {
+    width: 30px;
+}
+
+.menuItem:hover {
+    background-color: lightgray;
+}
+
+.menuItem:active {
+    background-color: lightblue;
+}
+

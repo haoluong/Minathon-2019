@@ -1,0 +1,37 @@
+.loginForm {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 30px;
+    background-color: white;
+    z-index: 999;
+}
+
+.closeButton {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.button {
+    width: 18px;
+    height: 18px;
+    background-image: url(close.png);
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+}
