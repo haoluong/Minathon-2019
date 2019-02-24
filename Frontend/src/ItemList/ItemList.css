@@ -1,0 +1,36 @@
+.item {
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.26);
+    width: 28%;
+    height: 300px;
+    margin: 20px;
+    display: block;
+    position: relative;
+}
+
+.item img {
+    width: 130px;
+    height: auto;
+}
+
+.imageContainer {
+    display: table;
+    width: inherit;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textContainer {
+    display: table;
+    position: relative;
+    width: inherit;
+    height: auto;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
